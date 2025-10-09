@@ -1,18 +1,18 @@
 
-# 📊 Google Play Store Data Analysis Dashboard
+# Google Play Store Data Analysis Dashboard
 
-## 🧩 Overview
+## Overview
 This project analyzes Android apps listed on the Google Play Store to uncover trends related to installs, ratings, revenue potential, pricing strategy, and user engagement.
 It combines **Python (for preprocessing)** and **Tableau (for visualization)** to deliver actionable insights in an interactive dashboard.
 
-## 🧠 Objectives
+## Objectives
 - Understand **app distribution** across categories.
 - Compare **Free vs Paid apps** performance.
 - Analyze **user ratings**, **reviews**, and **install trends**.
 - Estimate **revenue potential** based on installs and pricing.
 - Identify top-performing categories and apps.
 
-## ⚙️ Data Preprocessing (Python)
+## Data Preprocessing (Python)
 Data cleaning and transformation were performed in **Google Colab** using Python.
 Key steps included:
 - Handling missing values.
@@ -23,7 +23,7 @@ Key steps included:
   - `Rating_Category` (High, Medium, Low).
 - Removing duplicates and formatting data for Tableau.
 
-## 📈 Tableau Dashboard Structure
+## Tableau Dashboard Structure
 
 ### Sheet Overview
 | Worksheet | Title | Description |
@@ -46,7 +46,7 @@ Key steps included:
 - **Row 3–4:** Top visual charts (Category analysis, Free vs Paid trends, Ratings, Revenue)
 - Clean, interactive layout with filters for **Category** and **App Type**.
 
-## 🏆 KPIs
+## KPIs
 | KPI | Description | Calculation |
 |------|--------------|--------------|
 | Total Apps | Number of distinct apps | COUNTD([App]) |
@@ -54,38 +54,19 @@ Key steps included:
 | Average Rating | Mean rating | AVG([Rating]) |
 | Revenue Potential | Sum of revenue estimate | SUM([Revenue_Potential]) |
 
-## 🖼️ Sample Visuals
+## Sample Visuals
 - Top Categories by Installs
 - Rating Distribution
 - Free vs Paid Apps
 - Update Trend Over Time
 
-## 🚀 Tools & Technologies
+## Tools & Technologies
 - **Python (Pandas, NumPy, Matplotlib)** – Data Cleaning & Processing
 - **Tableau Public** – Dashboard & Visualization
 - **Google Colab** – Notebook Environment
 
-## 🔗 Tableau Public Link
-[👉 View Interactive Dashboard](#)
-
-## 📁 Repository Structure
-```
-GooglePlayStore-Dashboard/
-│
-├── data/
-│   └── googleplaystore_cleaned.csv
-│
-├── notebooks/
-│   └── googleplaystore_preprocessing.ipynb
-│
-├── tableau/
-│   └── GooglePlayStore_Dashboard.twbx
-│
-├── images/
-│   └── dashboard_preview.png
-│
-└── README.md
-```
+## Tableau Public Link
+[👉 View Interactive Dashboard](https://public.tableau.com/views/Module4CapstoneProject_17595083747920/WS9-AverageInstallsbyYear?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link)
 
 ## 💡 Insights Gained
 - Communication apps dominate installs but not necessarily ratings.
@@ -93,7 +74,3 @@ GooglePlayStore-Dashboard/
 - Frequent updates correlate with higher ratings.
 - Certain categories like **Finance** and **Education** show high monetization potential.
 
-## ✍️ Author
-**Shikhar Kumar**  
-📅 Created: October 2025  
-🔗 Tableau Public | GitHub | LinkedIn
